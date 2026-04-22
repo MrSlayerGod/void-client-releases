@@ -31,7 +31,6 @@ After downloading both files, verify the jar before running it:
 <br>
 
 <table>
-## Client
 - Fixed stretched mode on Linux distributions.
 - Fixed stretched mode scaling for resizable screen sizing.
 - Switched stretched-mode resizable scaling from percentage integer to factor to resolve various rendering bugs.
