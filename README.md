@@ -31,33 +31,18 @@ After downloading both files, verify the jar before running it:
 <br>
 
 <table>
-<tr>
-<td>
+## Client
+- Fixed stretched mode on Linux distributions.
+- Fixed stretched mode scaling for resizable screen sizing.
+- Switched stretched-mode resizable scaling from percentage integer to factor to resolve various rendering bugs.
 
-#### XP Tracker
-- Added skill icons.
-- Adjusted progress bar height, spacing, and fill rendering.
-- Made XP tracker state persist across restarts.
-- Added a reset button.
+## Usage
 
-#### Client
-- Fixed sidebar side switching by removing the crash-prone forced redraw.
-- Restored launcher options (e.g. `--address` and `--port`).
-- Updated brown UI theme to match the 2011 styling.
-- Fixed various crashes related to UI layouts and redrawing the client.
+Run with:
 
-#### Plugins
-- Forced Stretched Mode off on client launch.
-
-#### Splash Screen
-- Replaced the old matrix/logo splash image.
-
-#### Known Issues
-- Stretched mode is really buggy at the moment. Use with caution, as it may completely break rendering.
-- You may see artifacting when collapsing or switching sidebar position. Double click the title bar or resize your client to refresh rendering.
-
-</td>
-</tr>
+```bash
+java -jar runelite-void-client-0.0.4.jar --address xxx.xxx.xxx.xxx --port xxxxx
+```
 </table>
 
 </details>
