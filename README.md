@@ -2,7 +2,7 @@
 
 Public release channel for the Void Client. It is bundled with RuneLite.
 
-![Release](https://img.shields.io/badge/latest-v0.0.3-6b4a2f)
+![Release](https://img.shields.io/badge/latest-v0.0.4-6b4a2f)
 ![Revision](https://img.shields.io/badge/revision-634-8a6f4d)
 
 ## Download
